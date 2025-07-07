@@ -1,18 +1,6 @@
 # 🦅 FALCON AI Assistant
 
-<div align="center">
 
-![FALCON AI](https://img.shields.io/badge/FALCON-AI%20Assistant-blue?style=for-the-badge&logo=python)
-![Python](https://img.shields.io/badge/Python-3.8+-green?style=for-the-badge&logo=python)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-
-**A powerful Voice-Controlled AI Assistant built with Python**
-
-*🤖 "Automate tasks. Speak. Listen. Create. All in one — with FALCON."*
-
-[📺 YouTube Demo](#) • [🐛 Report Bug](../../issues) • [💡 Request Feature](../../issues)
-
-</div>
 
 ## 🎯 Features
 
@@ -32,45 +20,6 @@
 🎶 Searching for music on YouTube...
 ✅ Task completed successfully!
 ```
-
-> 🎥 **YouTube demo coming soon!** [Subscribe here](#) to be notified
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Python 3.12.5
-- Internet connection for AI services
-- Microphone for voice commands (optional)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/FALCON-AI-Assistant.git
-   cd FALCON-AI-Assistant
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Setup environment variables**
-   
-   Create a `.env` file in the root directory:
-   ```env
-   GROQ_API_KEY=your_groq_api_key_here
-   GEMINI_API_KEY=your_gemini_api_key_here
-   ```
-
-4. **Launch FALCON**
-   ```bash
-   python Falcon.py
-   ```
-   
-   🌐 Opens automatically at: `http://localhost:8000`
-
 ## 🏗️ Project Structure
 
 ```
@@ -87,43 +36,6 @@
 ├── ⚙️ .env              # Environment configuration
 └── 📋 requirements.txt   # Python dependencies
 ```
-
-## 🎤 Voice Commands
-
-FALCON responds to natural language commands:
-
-| Command Type | Examples |
-|--------------|----------|
-| **System Control** | *"Open Google Chrome"*, *"Close all browser windows"* |
-| **Web Navigation** | *"Search YouTube for lo-fi music"*, *"Open Gmail"* |
-| **Content Creation** | *"Write an article about AI"*, *"Generate a Python script"* |
-| **Image Generation** | *"Create an image of a cyberpunk city"*, *"Generate a sunset landscape"* |
-| **File Management** | *"Save this conversation"*, *"Export chat history"* |
-
-## 📊 Data Export
-
-Export your conversation history programmatically:
-
-```python
-# Export as CSV
-assistant.export_chat_history('csv')
-
-# Export as Excel
-assistant.export_chat_history('excel')
-```
-
-## 🔧 Configuration
-
-### API Keys Required
-
-- **GROQ API**: For natural language processing
-- **GEMINI API**: For advanced AI capabilities
-
-### Optional Settings
-
-- Voice recognition sensitivity
-- Response speed preferences
-- Default export formats
 
 
 
